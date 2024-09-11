@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://preview.colorlib.com/theme/caviar/img/bg-img/hero-1.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu ul{
+list-style: none;
+display: flex;
+gap: 20px;
+cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.starting{
+    
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.logo{
+    color: white;
+}
+.left-top h1{
+    color: white;
+    margin-left: 175px;
+    font-size: 40px;
+}
+.left-top p{
+    color: white;
+    margin-left: 175px;
+    font-size: large;
+}
+.left-side{
+    position: absolute;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-bottom{
+    position: absolute;
+    left: 170px;
+    bottom: 60px;
+}
+.left-bottom button{
+    padding: 15px 30px;
+}
+.right-side{
+   width: 300px;
+   position: absolute;
+   bottom: 0;
+
+}
+.right-side img{
+    width: 100%;
+}
+.middle{
+    display: flex;
+    justify-content: end;
+    
+}
